@@ -1,0 +1,9 @@
+target 'LoginForm' do
+  use_frameworks!
+
+  target 'LoginFormUITests' do
+    inherit! :search_paths
+    pod 'AutoMate'
+  end
+
+end
